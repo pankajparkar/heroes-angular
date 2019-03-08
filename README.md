@@ -1,5 +1,7 @@
 # Tour of Heroes
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/johnpapa/heroes-angular.svg)](https://greenkeeper.io/)
+
 This project was created to help represent a fundamental app written with Angular. The heroes and villains theme is used throughout the app.
 
 by [John Papa](http://twitter.com/john_papa)
