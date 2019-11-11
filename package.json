@@ -4,7 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start-ng": "ng serve --proxy-config proxy.conf.json --open",
-    "start": "WWW=dist/heroes-angular node server.js",
+    "start": "cross-env WWW=dist/heroes-angular node server.js",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -51,6 +51,7 @@
     "@types/node": "~8.9.4",
     "codelyzer": "^5.0.1",
     "concurrently": "^4.0.1",
+    "cross-env": "^6.0.3",
     "cypress": "^3.4.1",
     "jasmine-core": "~2.99.1",
     "jasmine-spec-reporter": "~4.2.1",
